@@ -18,7 +18,7 @@ Instead of just looking at Excel sheets, I decided to build a **full data pipeli
 ### The Dashboard
 *(Click the link below to interact with the map)*
 
-👉 **[View the Interactive Dashboard on Tableau Public](https://public.tableau.com/views/GlobalDataMonitor/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+ **[View the Interactive Dashboard on Tableau Public](https://public.tableau.com/views/GlobalDataMonitor/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 ![Dashboard Preview](7_Global_data_analyst_salary.png)
 
@@ -81,7 +81,7 @@ Plutôt que de regarder de simples fichiers Excel, j'ai décidé de construire u
 ### Le Dashboard
 *(Cliquez sur le lien ci-dessous pour manipuler la carte)*
 
-👉 **[Voir le Dashboard Interactif sur Tableau Public](https://public.tableau.com/views/GlobalDataMonitor/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+ **[Voir le Dashboard Interactif sur Tableau Public](https://public.tableau.com/views/GlobalDataMonitor/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 ---
 
@@ -99,7 +99,7 @@ J'ai utilisé une combinaison d'outils pour répondre à des défis précis :
 
 ---
 
-### ⚙️ Ma Méthode (Étape par étape)
+### Ma Méthode (Étape par étape)
 
 #### 1. Extraction et Nettoyage (SQL)
 J'ai commencé par requêter la base de données mondiale pour :
@@ -121,7 +121,7 @@ J'ai réimporté les données enrichies dans la base pour calculer les KPIs fina
 
 ---
 
-### 💡 Ce que les données révèlent
+### Ce que les données révèlent
 1.  **Le fossé américain :** Les États-Unis restent l'exception mondiale avec les salaires les plus élevés et le plus fort volume d'offres.
 2.  **La position de la France :** La France offre un marché stable, mais avec une rémunération moyenne inférieure à ses voisins comme la Suisse ou l'Allemagne.
 
