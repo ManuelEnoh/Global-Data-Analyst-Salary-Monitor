@@ -18,7 +18,7 @@ Instead of just looking at Excel sheets, I decided to build a **full data pipeli
 
 👉 **[View the Interactive Dashboard on Tableau Public](https://public.tableau.com/views/GlobalDataMonitor/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
-![Dashboard Preview](5_Global_data_analyst_salary.png)
+![Dashboard Preview](7_Global_data_analyst_salary.png)
 *(Note: If the image above doesn't load, please check the 'dashboard_preview.png' file in the repository)*
 
 ---
@@ -43,19 +43,19 @@ I used a combination of tools to handle specific challenges:
 I started with a global dataset of data jobs. I wrote a SQL query to:
 * Filter specifically for **Data Analyst** roles (ignoring Scientists/Engineers for this specific study).
 * Convert salaries from USD to EUR (using a standard exchange rate).
-* *See file: `1_extract_and_convert.sql`*
+* *See file: `1_Création_et_nettoyage_data_analyst.sql`*
 
 #### 2. Geographic Enrichment (Python)
 I exported the raw SQL data and processed it with Python to add geolocation data.
 * Mapped `US` → `United States`, `FR` → `France`, etc.
 * Handled missing values to ensure clean mapping in Tableau.
-* *See file: `2_enrich_geography.py`*
+* *See file: `3_Global_data_jobs_enriched.ipynb`*
 
 #### 3. Final Aggregation (SQL)
 I re-imported the enriched data into the database to calculate the final KPIs:
 * Average Salary per country.
 * Salary Volatility (Standard Deviation) to understand risk.
-* *See file: `3_final_kpi_calculation.sql`*
+* *See file: `5_Script_table_finale_avec_KPIs.sql`*
 
 ---
 
@@ -102,19 +102,19 @@ J'ai utilisé une combinaison d'outils pour répondre à des défis précis :
 J'ai commencé par requêter la base de données mondiale pour :
 * Filtrer spécifiquement les rôles de **Data Analyst** (en excluant les Scientists/Engineers pour cette étude).
 * Convertir les salaires USD vers EUR (taux de change standardisé).
-* *Voir fichier : `1_extract_and_convert.sql`*
+* *Voir fichier : `1_Création_et_nettoyage_data_analyst.sql`*
 
 #### 2. Enrichissement Géographique (Python)
 J'ai exporté les données SQL brutes et utilisé Python pour ajouter la géolocalisation :
 * Mapping `US` → `United States`, `FR` → `France`, etc.
 * Gestion des valeurs manquantes pour assurer une carte propre.
-* *Voir fichier : `2_enrich_geography.py`*
+* *Voir fichier : `3_Global_data_jobs_enriched.ipynb`*
 
 #### 3. Calculs Finaux (SQL)
 J'ai réimporté les données enrichies dans la base pour calculer les KPIs finaux :
 * Salaire moyen par pays.
 * Volatilité des salaires (Écart-type) pour comprendre le risque/la disparité.
-* *Voir fichier : `3_final_kpi_calculation.sql`*
+* *Voir fichier : `5_Script_table_finale_avec_KPIs.sql`*
 
 ---
 
