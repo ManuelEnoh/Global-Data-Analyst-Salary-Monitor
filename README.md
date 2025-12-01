@@ -3,6 +3,8 @@ How much do Data Analysts earn globally? A full-stack data project using Python 
 # Version Française en-dessous !!
 
 # Global Data Analyst Salary Monitor (2020-2025)
+> **Transparency Note:**
+> This project was architected and solved manually. I leveraged AI tools (LLMs) strictly as productivity assistants for **code commenting**, **debugging**, and **documentation formatting**. The analytical logic and financial modeling are entirely my own.
 
 ### Why this project?
 As I am transitioning into a Data Analyst role in France, I was curious about the global market.
@@ -19,7 +21,6 @@ Instead of just looking at Excel sheets, I decided to build a **full data pipeli
 👉 **[View the Interactive Dashboard on Tableau Public](https://public.tableau.com/views/GlobalDataMonitor/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 ![Dashboard Preview](7_Global_data_analyst_salary.png)
-*(Note: If the image above doesn't load, please check the 'dashboard_preview.png' file in the repository)*
 
 ---
 
@@ -66,6 +67,8 @@ I re-imported the enriched data into the database to calculate the final KPIs:
 ---
 
 # 🇫🇷 Version Française
+> **Note de transparence :**
+> Ce projet a été conçu et codé manuellement. L'IA a été utilisée uniquement comme outil de productivité pour le **formatage**, les **commentaires de code** et le **débogage**, simulant un flux de travail professionnel moderne. La logique analytique et financière est entièrement personnelle.
 
 ### Pourquoi ce projet ?
 En pleine transition vers le métier de Data Analyst en France, je me posais des questions concrètes sur le marché mondial :
